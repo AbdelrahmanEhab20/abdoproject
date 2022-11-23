@@ -1,4 +1,5 @@
 import "./App.css";
+import Todo from "./todoComponents/Todo";
 // import ConditionalComponent from "./components/ConditionalComponent";
 // import FormComp from "./components/FormComp";
 // import FunctionalCounter from "./components/FunctionalCounter";
@@ -13,6 +14,8 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      <Todo />
+
       {/* <Profile name="Abdelrahman" age="23" /> */}
       {/* <Message
         messageContent="Abdelrahman Ehab Testing React Class Component"
@@ -23,8 +26,7 @@ function App() {
       <hr />
       <FormComp />
       <hr />
-      <ConditionalComponent />
-      <hr />
+   
       <Products />
       <Counter /> */}
     </div>
