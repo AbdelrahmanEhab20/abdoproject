@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import ConditionalComponent from "./components/ConditionalComponent";
+// import FormComp from "./components/FormComp";
+// import FunctionalCounter from "./components/FunctionalCounter";
+// import Products from "./components/Products";
+// import FunctionEvent from "./components/FunctionEvent";
+// import Hello from "./components/Hello";
+// import Message from "./components/ClassCompMessage";
+// import Counter from "./components/ClassCompMessage";
+// import Profile from "./components/Profiles";
+// import Counter from "./components/Counter";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Profile name="Abdelrahman" age="23" /> */}
+      {/* <Message
+        messageContent="Abdelrahman Ehab Testing React Class Component"
+        age="23"
+      /> */}
+      {/* <FunctionEvent /> */}
+      {/* <FunctionalCounter />
+      <hr />
+      <FormComp />
+      <hr />
+      <ConditionalComponent />
+      <hr />
+      <Products />
+      <Counter /> */}
     </div>
   );
 }
